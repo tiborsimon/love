@@ -1,1 +1,3 @@
-# love
+# since
+
+Day calculator for couples.
