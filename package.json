@@ -34,15 +34,17 @@
         "babel-preset-stage-0": "^6.3.13",
         "react": "^0.14.6",
         "react-dom": "^0.14.6",
-        "webpack": "^1.12.9",
-        "webpack-dev-server": "^1.14.1"
+        "css-loader": "^0.25.0",
+        "style-loader": "^0.13.1"
     },
     "devDependencies": {
+        "webpack": "^1.12.9",
+        "webpack-dev-server": "^1.14.1",
         "chai": "^3.5.0",
         "mocha": "^3.0.2"
     },
     "scripts": {
-        "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+        "dev": "webpack-dev-server --inline --hot",
         "test": "echo \"Error: no test specified\" && exit 1"
     }
 }
